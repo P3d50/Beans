@@ -10,4 +10,10 @@ public class AppConfig {
     public Livro getLivro(){
         return new Livro();
     }
+
+    @Bean
+    public Autor getAutor(){
+        return new Autor();
+    }
+
 }
